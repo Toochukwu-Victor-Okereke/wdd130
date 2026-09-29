@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | Wild River Rafting</title>
+    <meta name="description"
+      content="Contact Wild River Rafting for reservations, trip questions, or website suggestions. Find our address, phone, email, and meet our guides.">
+    <meta name="author" content="Toochukwu Victor Okereke">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Wild River Rafting logo" width="200" height="60">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="page-title">Contact Us</h1>
+
+        <section class="company-info">
+            <div class="contact-details">
+                <h2>Company Information</h2>
+                <address>
+                    Wild River Rafting<br>
+                    123 River Road<br>
+                    Idaho Falls, ID 83402
+                </address>
+                <p>Phone: <a href="tel:+12085550123">(208) 555-0123</a></p>
+                <p>Toll Free: <a href="tel:+18005550123">(800) 555-0123</a></p>
+                <p>Email: <a
+                      href="mailto:info@wildriverrafting.example">info@wildriverrafting.example</a>
+                </p>
+            </div>
+
+            <iframe title="Map showing the Wild River Rafting location"
+              src="https://maps.google.com/maps?q=Idaho+Falls,+Idaho&amp;output=embed" width="400"
+              height="250" allowfullscreen loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="employees">
+            <h2>Meet Our Guides</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Portrait of Jordan Rivers" loading="lazy">
+                    <figcaption>Jordan Rivers<br>Head River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Portrait of Maria Stone" loading="lazy">
+                    <figcaption>Maria Stone<br>Safety Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Portrait of Sam Brooks" loading="lazy">
+                    <figcaption>Sam Brooks<br>Reservations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <div class="form-field">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset>
+                    <legend>Purpose of Message</legend>
+                    <div class="radio-option">
+                        <input type="radio" id="general" name="purpose" value="general" checked>
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="checkbox-option">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wild River Rafting | Toochukwu Victor Okereke</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg"
+                  alt="Instagram Icon"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
